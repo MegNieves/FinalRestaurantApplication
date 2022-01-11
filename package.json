@@ -1,0 +1,38 @@
+{
+	"name": "pizza happy",
+	"version": "1.0.1",
+	"description": "Order a pizza in an app (just for fun!)",
+	"license": "MIT",
+	"repository": "MegNieves/FinalRestaurantApplication",
+	"author": {
+		"name": "Meghan Nieves",
+		"email": "megnieves12@gmail.com",
+		"url": "https://https://megnieves.github.io"
+	},
+	"main": "cli.js",
+	"bin": {
+		"pizza": "cli.js"
+	},
+	"scripts": {
+		"test": "xo"
+	},
+	"keywords": [
+		"pizza-cli",
+		"pizza",
+		"cli",
+		"app",
+		"order",
+		"interactive",
+		"restaurant"
+	],
+	"dependencies": {
+		"lowdb": "^1.0.0",
+		"make-dir": "^1.3.0",
+		"meow": "^5.0.0",
+		"nanoid": "^2.0.0",
+		"prompts": "^1.2.0"
+	},
+	"devDependencies": {
+		"xo": "*"
+	}
+}
